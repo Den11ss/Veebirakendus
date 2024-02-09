@@ -1,0 +1,226 @@
+table{
+	width: 40%; /*40% ekraani laiust*/
+	height: 200px;
+	border: 1pt solid black;
+}
+td{
+	border: 1pt solid black;
+	text-align: center; /*выравнивание текста*/
+}
+/*1.rida 1.lahter*/
+#tabel1 tr:nth-child(1) td:nth-child(1){
+	background-color: pink;
+}
+/*1.rida 2.lahter*/
+#tabel1 tr:nth-child(1) td:nth-child(2){
+	background-color: gold;
+}
+/*2.rida 1.lahter*/
+#tabel1 tr:nth-child(2) td:nth-child(1){
+	background-color: gold;
+}
+/*1.rida 1.lahter*/
+#tabel1 tr:nth-child(2) td:nth-child(2){
+	background-color: pink;
+}
+/*1.rida 3.lahter*/
+#tabel1 tr:nth-child(1) td:nth-child(3){
+	background-color: pink;
+}
+/*2.rida 3.lahter*/
+#tabel1 tr:nth-child(2) td:nth-child(3){
+	background-color: gold;
+}
+#eesti{
+	width: 330px; /*40% ekraani laiust*/
+	height: 210px;
+	border: 1pt solid black;
+	border-spacing: 0;
+}
+#eesti td {
+	border:0;
+}
+/*1.rida*/
+#eesti tr:nth-child(1) {
+	background-color: blue;
+	border:0;
+}
+/*2.rida*/
+#eesti tr:nth-child(2) {
+	background-color: black;
+	border:0;
+}
+/*3.rida*/
+#eesti tr:nth-child(3) {
+	background-color: white;
+	border:0;
+
+
+/*-Soome Lipp*/#soome：
+}
+#soome {
+	width: 330px; /*40% ekraani laiust*/
+	height: 210px;
+	border: 1pt solid black;
+	border-spacing: 0;
+}
+#soome td {
+	border:0;
+}
+/*1.rida 1.lahter ja 3.rida 1.lahter*/
+#soome tr:nth-child(1) td:nth-child(1),
+#soome tr:nth-child(3) td:nth-child(1) {
+	background-color: white;
+	width: 25%;
+}
+/*1.rida 2.lahter ja 3.rida 2.lahter*/
+#soome tr:nth-child(1) td:nth-child(2),
+#soome tr:nth-child(3) td:nth-child(2) {
+	background-color: blue;
+	width: 15%;
+}
+/*2.rida*/
+#soome tr:nth-child(2) {
+	background-color: blue;
+	border:0;
+	height:20%;
+}
+/*1.rida 3.lahter ja 3.rida 3.lahter*/
+#soome tr:nth-child(1) td:nth-child(3),
+#soome tr:nth-child(3) td:nth-child(3) {
+	background-color: white;
+}
+
+
+
+värvipalett{
+	width: 40%; /*40% ekraani laiust*/
+	height: 200px;
+	border: 1pt solid black;
+}
+td{
+	border: 1pt solid black;
+	text-align: center; /*выравнивание текста*/
+}
+/*1.rida 1.lahter*/
+#värvipalett td:nth-child(1){
+	background-color: #fff200;
+}
+/*1.rida 2.lahter*/
+#värvipalett tr:nth-child(1){
+	background-color: #f07de0;
+}
+/*2.rida 1.lahter*/
+#värvipalett tr:nth-child(2) td:nth-child(1){
+	background-color: #8080cc;
+}
+/*1.rida 1.lahter*/
+#värvipalett tr:nth-child(2) td:nth-child(2){
+	background-color: #c23d3d;
+}
+/*.rida 3.lahter*/
+#värvipalett tr:nth-child(3) td:nth-child(2){
+	background-color:  #33cccc;
+}
+
+#litva{
+	width: 330px; /*40% ekraani laiust*/
+	height: 210px;
+	border: 1pt solid black;
+	border-spacing: 0;
+}
+
+#litva td {
+	border:0;
+}
+/*1.rida*/
+#litva tr:nth-child(1) {
+	background-color: yellow;
+	border:0;
+}
+/*2.rida*/
+#litva tr:nth-child(2) {
+	background-color: green;
+	border:0;
+}
+/*3.rida*/
+#litva tr:nth-child(3) {
+	background-color: red;
+	border:0;
+}
+	
+#france{
+	width: 330px; /*40% ekraani laiust*/
+	height: 210px;
+	border: 1pt solid black;
+	border-spacing: 0;
+}
+
+#france td {
+	border:0;
+}
+/*1.lahter*/
+#france td:nth-child(1) {
+	background-color: blue;
+	border:0;
+}
+
+#france td:nth-child(2) {
+	background-color: white;
+	border:0;
+}
+
+#france td:nth-child(3) {
+	background-color: red;
+	border:0;
+}
+
+#lgbt{
+	width: 330px; /*40% ekraani laiust*/
+	height: 210px;
+	border: 1pt solid black;
+	border-spacing: 0;
+}
+
+#lgbt td {
+	border:0;
+}
+
+/*1.rida*/
+#lgbt tr:nth-child(1) {
+	background-color: red;
+	border:0;
+}
+
+/*2.rida*/
+#lgbt tr:nth-child(2) {
+	background-color: orange;
+	border:0;
+}
+
+/*3.rida*/
+#lgbt tr:nth-child(3) {
+	background-color: yellow;
+	border:0;
+}
+
+/*4.rida*/
+#lgbt tr:nth-child(4) {
+	background-color: green;
+	border:0;
+}
+
+/*5.rida*/
+#lgbt tr:nth-child(5) {
+	background-color: blue;
+	border:0;
+}
+
+/*6.rida*/
+#lgbt tr:nth-child(6) {
+	background-color: purple;
+	border:0;
+}
+
+
+
