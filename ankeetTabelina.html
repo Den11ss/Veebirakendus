@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Õpilase ankeet tabelina</title>
+</head>
+<body>
+<h1>Õpilase ankeet tabelina</h1>
+<from>
+    <table border="1"
+            <tr>
+               <td>
+                   <label for="nimi">Sisesta nimi:</label>
+               </td>
+               <td>
+                   <input type="text" id="nimi" name="nimi" placeholder="Eesnimi" oninput="sisestaNimi()">
+                   <div id="vastus"></div>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                   <strong>Vali tehtud kursused:</strong>
+               </td>
+               <td>
+                   <input type="checkbox" id="kurs1" value="1.kursus">
+                   <label for="kurs1">1kursus</label>
+                   <br>
+                   <input type="checkbox" id="kurs2" value="2.kursus">
+                   <label for="kurs2">2kursus</label>
+                   <br>
+                   <input type="checkbox" id="kurs3" value="3.kursus">
+                   <label for="kurs3">3kursus</label>
+               </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <strong>Vali Eriala:</strong>
+                </td>
+                <td>
+                    <input type="radio" id="it"  value="IT" name="eriala">
+                    <label for="it">Infotehnoloogia</label>
+                    <br>
+                    <input type="radio" id="juuksur"  value="juuksur" name="eriala">
+                    <label for="juuksur">Juuksur</label>
+                    <br>
+                    <input type="radio" id="meh"  value="Meh" name="eriala">
+                    <label for="meh">Mehatroonika</label>
+                    <br>
+                    <input type="radio" id="ratsep"  value="Rätsep" name="eriala">
+                    <label for="ratsep">Rätsep</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <strong>Kirjuta ennast:</strong>
+                </td>
+                <td>
+                    <textarea id="kiri">
+                    oodetakse 100 sõnu
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="linn">Elukoht:</label>
+                </td>
+                <td>
+                    <select name="linn" id="linn">
+                        <option value="palun vali">Palun vali...</option>
+                        <option value="Tallinn">Tallinn</option>
+                        <option value="Tartu">Tartu</option>
+                        <option value="Narva">Narva</option>
+                        <option value="Paide">Paide</option>
+                        <option value="Kehra">Kehra</option>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="color">jalanõude värv:</label>
+                </td>
+                <td>
+                    <input type="color" id="color" name="color" placeholder="color" oninput="color()">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sünnipäev">sünnipäev:</label>
+                </td>
+                <td>
+                    <input type="date" id="sünnipäev" name="sünnipäev">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">email:</label>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="image" src="reede.gif" alt="Submit" width="200" height="200">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="quantity">Hinda oma tuju (1 kuni 10):</label>
+                </td>
+                <td>
+                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Enter your phone number:</label>
+                </td>
+                <td>
+                    <input type="tel" id="phone" name="phone">
+                </td>
+            </tr>
+
+
+</from>
+</body>
+</html>
